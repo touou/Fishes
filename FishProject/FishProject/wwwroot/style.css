@@ -1,0 +1,39 @@
+﻿body{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: lightskyblue;
+}
+select{
+    padding-left: 125px;
+    width: 300px;
+    height: 50px;
+}
+button{
+    width: 300px;
+    height: 20px;
+    margin-top: 5px;
+}
+div{
+    display:flex;
+    flex-direction: row;
+}
+div-aqua{
+    height: 500px;
+    width: 800px;
+    margin: 20px;
+    background-color:navy;
+    color: aliceblue;
+}
+div-select{
+    display: flex;
+    justify-content: right;
+
+    flex-direction: column;
+}
+p{
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    padding: 10px;
+}

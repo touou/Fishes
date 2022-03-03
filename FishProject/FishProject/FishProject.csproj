@@ -11,4 +11,13 @@
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Content Include="..\wwwroot\js\signalr\dist\browser\signalr.js">
+        <Link>wwwroot\js\signalr\dist\browser\signalr.js</Link>
+      </Content>
+      <Content Include="..\wwwroot\js\signalr\dist\browser\signalr.min.js">
+        <Link>wwwroot\js\signalr\dist\browser\signalr.min.js</Link>
+      </Content>
+    </ItemGroup>
+
 </Project>
